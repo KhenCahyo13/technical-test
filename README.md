@@ -21,6 +21,13 @@ MySQL PhpMyAdmin | server version: 10.4.22-MariaDB
 
 ## Panduan Penggunaan
 
+Import Database
+1. Ekstrak file github yang telah didownload
+2. Buka xampp dan jalankan server mysql
+3. Buka localhost/phpmyadmin lalu buat db dengan nama technical_test
+4. Jika db sudah terbuat klik db tersebut lalu masuk ke bagian import
+5. Pada bagian import masukkan file db technical_test.sql lalu klik go
+
 Menjalankan RestAPI Backend
 1. Ekstrak file github yang telah didownload
 2. Buka folder backend menggunakan vscode
