@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply m-0 p-0 text-gray-700 bg-gray-100
+}
+
+.form-control {
+  @apply w-full outline-none border border-gray-800 border-opacity-30 rounded-md p-2 mt-4 text-sm focus:border focus:border-blue-500 transition duration-300
+}
+
+.btn-blue {
+  @apply bg-blue-500 mt-4 rounded-md px-4 py-2 text-center text-white text-sm w-full
+}
+
+.btn-green {
+  @apply bg-green-500 px-4 py-2 text-sm hover:bg-green-600 rounded-md text-white transition duration-300 cursor-pointer
+}
+
+.success-box {
+  @apply w-full bg-green-500 bg-opacity-20 text-green-500 text-sm mt-2 p-2 rounded-md
+}
+
+.error-box {
+  @apply w-full bg-red-600 bg-opacity-20 text-red-600 text-sm mt-2 p-2 rounded-md
+}
+
+.false-box {
+  @apply px-4 py-1 bg-red-600 bg-opacity-20 rounded-md text-red-600 lg:py-2
+}
+
+.true-box {
+  @apply px-4 py-1 bg-green-500 bg-opacity-20 rounded-md text-green-500 lg:py-2
+}
